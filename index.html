@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marcia & Zenaide · 15 de maio de 2027</title>
+<meta name="description" content="Marcia e Zenaide vão se casar em 15 de maio de 2027, em Ibiúna, SP. Confirme sua presença e celebre com a gente.">
+<meta name="theme-color" content="#4F7CAC">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,300;1,400&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --rosa:#F7A1C4; --rosa-claro:#FCE7F2; --marinho:#1F3A5F; --azul:#4F7CAC; --fundo:#F4F6FA; --f1:#1F3A5F; --f2:#4F7CAC;
+  --serif:"Cormorant Garamond",Georgia,serif; --sans:"Nunito Sans",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font:17px/1.65 var(--sans);color:var(--marinho);background:var(--fundo)}
+a{color:var(--azul)}
+:focus-visible{outline:3px solid var(--rosa);outline-offset:3px}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.1}
+h2{font-size:clamp(2.2rem,5vw,3.2rem);margin-bottom:.6rem;color:var(--azul)}
+[hidden]{display:none!important}
+.wrap{position:relative;z-index:1}
+h3{font-size:1.5rem;font-weight:600}
+.wrap{max-width:1000px;margin:0 auto;padding:0 22px}
+section{padding:84px 0}
+section.alt{background:#fff}
+.lead{max-width:60ch;margin-bottom:2rem;color:#35537a}
+
+/* menu */
+header{position:sticky;top:0;z-index:20;background:rgba(79,124,172,.95);backdrop-filter:blur(8px)}
+header .wrap{display:flex;align-items:center;gap:22px;height:56px}
+header strong{font:italic 400 1.35rem var(--serif);color:#fff;white-space:nowrap}
+nav{display:flex;gap:18px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+nav a{color:#fff;text-decoration:none;font-size:.92rem;white-space:nowrap;padding:4px 0}
+nav a:hover{color:var(--rosa-claro)}
+
+/* hero */
+.hero{position:relative;overflow:hidden;min-height:calc(100svh - 56px);display:grid;place-items:center;text-align:center;color:#fff;padding:60px 22px;
+  background:radial-gradient(ellipse at 80% 10%,rgba(247,161,196,.3),transparent 55%),radial-gradient(ellipse at 10% 100%,rgba(31,58,95,.5),transparent 60%),var(--azul);background-size:140% 140%,140% 140%,auto;animation:fundo 16s ease-in-out infinite alternate;--f2:#F4F6FA}
+.hero .in{position:relative;z-index:2}
+.hero h1{font-style:italic;font-weight:300;font-size:clamp(3.4rem,13vw,8rem);letter-spacing:-.01em}
+.hero h1 span{display:block;overflow:hidden}
+.hero h1 span b{display:block;font-weight:inherit;transform:translateY(105%);animation:sobe 1.1s .2s cubic-bezier(.2,.8,.2,1) forwards}
+.hero h1 span:nth-child(3) b{animation-delay:.55s}
+.hero h1 em{color:var(--rosa-claro);font-size:.55em;display:block;line-height:1;margin:.1em 0;transform:scale(0);animation:pop .8s .45s cubic-bezier(.3,1.6,.5,1) forwards,bate 2.8s 1.6s ease-in-out infinite}
+.hero p.d{font-size:1.15rem;margin-top:1.6rem;color:#fff;opacity:0;animation:surge 1s 1.2s forwards}
+.hero .cta{margin-top:1.6rem;opacity:0;animation:surge 1s 1.5s forwards}
+@keyframes sobe{to{transform:none}}
+@keyframes pop{to{transform:scale(1)}}
+@keyframes surge{to{opacity:1}}
+.petala{position:absolute;top:-30px;width:14px;height:18px;border-radius:70% 0 70% 0;background:var(--rosa);opacity:.55;animation:cai linear infinite;z-index:1}
+@keyframes cai{to{transform:translate(var(--x),105vh) rotate(540deg)}}
+
+.cont{display:flex;justify-content:center;gap:12px;margin-top:2rem;opacity:0;animation:surge 1s 1.4s forwards}
+.cont div{min-width:78px;padding:12px 8px;border:1px solid rgba(247,161,196,.5);border-radius:10px}
+.cont b{display:block;font:600 2rem/1 var(--serif);color:#fff}
+.cont small{font-size:.8rem;color:#fff}
+
+.btn{display:inline-block;font:700 1rem var(--sans);padding:13px 26px;border-radius:999px;border:2px solid var(--rosa);background:var(--rosa);color:var(--marinho);text-decoration:none;cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:var(--rosa-claro)}
+.btn.sec{background:transparent;color:#fff;margin-left:8px}
+.btn.sec:hover{background:rgba(255,255,255,.12)}
+.btn.azul{background:var(--azul);border-color:var(--azul);color:#fff}
+.btn.azul:hover{background:var(--marinho);border-color:var(--marinho)}
+
+/* dia */
+.dia{display:grid;grid-template-columns:1fr 1.3fr;gap:36px;align-items:start}
+.info dl{display:grid;gap:18px;margin:1.4rem 0}
+.info dt{font-weight:700;color:var(--azul);font-size:.95rem}
+.info dd{font:400 1.5rem/1.25 var(--serif)}
+.mapa{border-radius:16px;overflow:hidden;border:6px solid #fff;box-shadow:0 10px 30px rgba(31,58,95,.15);min-height:340px}
+.mapa iframe{width:100%;height:100%;min-height:340px;border:0;display:block}
+.vest{margin-top:48px;padding:30px;border-radius:16px;background:var(--rosa-claro);border-left:6px solid var(--rosa)}
+.vest p{max-width:62ch}
+
+/* historia */
+.hist{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+.linha{border-left:2px solid var(--rosa);padding-left:24px;display:grid;gap:26px}
+.linha article{position:relative}
+.linha article::before{content:"";position:absolute;left:-32px;top:8px;width:14px;height:14px;border-radius:50%;background:var(--rosa);border:3px solid #fff;box-shadow:0 0 0 1px var(--rosa)}
+.linha h3{margin-bottom:2px}
+.fotos{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:44px}
+.fotos figure{aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:linear-gradient(145deg,var(--rosa-claro),#cfdcee);display:grid;place-items:center;font-size:2rem;color:var(--azul)}
+.fotos figure:nth-child(even){margin-top:24px}
+.fotos img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+.fotos figure:hover img{transform:scale(1.05)}
+
+/* presentes */
+.pres{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+.card{background:var(--fundo);border-radius:14px;padding:24px;display:flex;flex-direction:column;gap:6px;border:1px solid #dbe3ef}
+.card p{font-size:.95rem;color:#35537a;flex:1}
+.card .v{font:600 1.9rem var(--serif);color:var(--azul)}
+.card .btn{margin-top:10px;text-align:center;padding:10px 18px}
+.card:hover{border-color:var(--rosa)}
+
+dialog{border:0;border-radius:16px;padding:30px;max-width:420px;width:calc(100% - 32px);color:var(--marinho);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+dialog::backdrop{background:rgba(31,58,95,.6)}
+.pix{display:flex;gap:8px;margin:14px 0}
+.pix code{flex:1;padding:11px;background:var(--fundo);border-radius:8px;word-break:break-all;font-size:.9rem}
+
+/* forms */
+form{display:grid;gap:16px;max-width:560px}
+label{font-weight:700;font-size:.95rem;display:grid;gap:6px}
+input,textarea,select{font:inherit;padding:12px 14px;border:1.5px solid #b9c7dc;border-radius:10px;background:#fff;color:var(--marinho);width:100%}
+input:focus,textarea:focus,select:focus{border-color:var(--azul);outline:3px solid var(--rosa-claro)}
+.op{display:flex;gap:22px}
+.op label{display:flex;align-items:center;gap:8px;font-weight:400}
+.op input{width:auto}
+.msg{padding:14px 18px;border-radius:10px;background:var(--rosa-claro);display:none;max-width:560px}
+.msg.on{display:block}
+
+footer{background:var(--azul);color:#fff;text-align:center;padding:44px 22px;--f2:#F4F6FA}
+footer p:first-of-type{font:italic 300 2rem var(--serif);color:#fff}
+
+.rv{opacity:1}
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .8s var(--d,0s),transform .8s var(--d,0s)}
+.js .card.in{transition:transform .3s,box-shadow .3s,border-color .3s}
+.js .fotos figure.in{transition:transform .4s}
+.js .rv.in{opacity:1;transform:none}
+
+#prog{position:fixed;top:0;left:0;height:4px;width:0;background:var(--rosa);z-index:30}
+@keyframes fundo{from{background-position:0 0,100% 100%,0 0}to{background-position:100% 30%,0 60%,0 0}}
+@keyframes bate{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+@keyframes gira{to{transform:rotate(360deg)}}
+@keyframes balanca{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(12deg)}}
+@keyframes caiF{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(var(--x),55vh) rotate(180deg)}100%{transform:translate(calc(var(--x)*-.6),115vh) rotate(380deg)}}
+@keyframes anel{0%{box-shadow:0 0 0 0 rgba(247,161,196,.65)}70%,100%{box-shadow:0 0 0 18px rgba(247,161,196,0)}}
+@keyframes pulso{50%{transform:scale(1.2);color:var(--rosa)}}
+@keyframes entra{from{opacity:0;transform:translateY(-8px)}}
+@keyframes abre{from{opacity:0;transform:scale(.85) translateY(20px)}}
+@keyframes estoura{from{transform:translate(0,0) scale(.3);opacity:1}70%{opacity:1}to{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(1);opacity:0}}
+@keyframes cresce{from{transform:scaleY(0)}}
+@keyframes balanca2{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+.fol{width:var(--s,48px);height:var(--s,48px);display:block;transform-origin:50% 100%;animation:cresce 1.6s var(--d,0s) ease-out both,balanca2 6s calc(var(--d,0s) + 1.6s) ease-in-out infinite}
+.gar{align-items:flex-end}.gar .fol{--s:46px}
+.gar2{position:absolute;bottom:0;width:min(30vw,340px);z-index:0;pointer-events:none;opacity:.75;transform-origin:50% 100%}
+.gar2.e{left:-40px}.gar2.d{right:-40px}
+.gar2 svg{display:block;width:100%;height:auto}
+.gar2.d svg{transform:scaleX(-1)}
+.gar2.hero{width:min(34vw,360px);opacity:1}
+.hero{--ln:#fff}
+.js .gar2{clip-path:inset(100% 0 0 0);transition:clip-path 2.6s cubic-bezier(.3,.7,.2,1)}
+.js .gar2.on{clip-path:inset(0);animation:sway 8s 2.6s ease-in-out infinite alternate}
+@keyframes sway{from{rotate:-1deg}to{rotate:1.2deg}}
+.wrap{position:relative;z-index:1}
+@media(max-width:760px){.gar2{width:44vw;opacity:.3}.gar2.hero{width:36vw;opacity:.9}}
+.flor{width:var(--s,48px);height:var(--s,48px);display:block}
+.hf{position:absolute;top:-70px;z-index:1;opacity:.85;width:var(--s);animation:caiF linear infinite}
+.canto{position:absolute;z-index:0;width:var(--s);height:var(--s);pointer-events:none}
+.canto .flor{animation:gira 40s linear infinite}
+.tit{display:flex;align-items:center;gap:12px}
+.gi{display:inline-flex;flex:none;animation:gira 30s linear infinite}
+.tit .flor{--s:38px}
+.js .bloom{transform:scale(0) rotate(-120deg);transition:transform 1.2s .3s cubic-bezier(.3,1.5,.5,1)}
+.rv.in .bloom{transform:none}
+.gar{display:flex;justify-content:center;gap:14px;margin-bottom:14px}
+.gar .flor{--s:34px;animation:balanca 3s ease-in-out infinite;transform-origin:50% 0}
+.vest{position:relative}
+.vf{position:absolute;right:20px;top:14px;display:flex;gap:6px}
+.vf .flor{--s:38px;animation:gira 14s linear infinite}
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.5) 50%,transparent 70%);transform:translateX(-120%)}
+.btn:hover::after{transform:translateX(120%);transition:transform .7s}
+.cta .btn:not(.sec){animation:anel 2.4s 2.5s infinite}
+.cont b.p{animation:pulso .5s}
+.card:hover{transform:translateY(-6px);box-shadow:0 12px 28px rgba(79,124,172,.22)}
+.fotos figure:hover{transform:rotate(-2deg) scale(1.03)}
+.js .linha article:not(.in)::before{transform:scale(0)}
+.linha article::before{transition:transform .6s cubic-bezier(.3,1.6,.5,1)}
+dialog[open]{animation:abre .35s cubic-bezier(.2,1.2,.4,1)}
+.ac{display:flex;gap:8px;margin-bottom:10px;animation:entra .35s}
+.ac.sai{opacity:0;transform:translateX(30px);transition:.25s}
+.ac .x{border:0;background:var(--rosa-claro);color:var(--marinho);width:46px;border-radius:10px;font-size:1.4rem;cursor:pointer}
+.conf{position:fixed;z-index:60;pointer-events:none;width:var(--s);height:var(--s);animation:estoura 1.6s cubic-bezier(.2,.8,.3,1) forwards}
+@media(max-width:760px){
+  .dia,.hist{grid-template-columns:1fr}
+  .fotos{grid-template-columns:repeat(2,1fr)}
+  .btn.sec{margin:10px 0 0}
+  .cont{gap:8px}.cont div{min-width:66px}
+  header strong{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  .hero h1 span b,.hero h1 em,.hero p.d,.hero .cta,.cont{transform:none;opacity:1}
+  .petala{display:none}
+}
+</style>
+</head>
+<body>
+<script>document.documentElement.classList.add('js')</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="orquidea" viewBox="0 0 100 100"><g filter="url(#aqs)"><g style="fill:var(--p1,#F7A1C4);stroke:var(--p3,none);stroke-width:2.5"><ellipse cx="50" cy="20" rx="11" ry="18"/><ellipse cx="50" cy="20" rx="11" ry="18" transform="rotate(130 50 50)"/><ellipse cx="50" cy="20" rx="11" ry="18" transform="rotate(230 50 50)"/><circle cx="24" cy="44" r="21"/><circle cx="76" cy="44" r="21"/></g><path d="M50 52c-14 2-16 22-6 30 4 4 8 4 12 0 10-8 8-28-6-30z" fill="#F7A1C4" stroke="#fff" stroke-opacity=".7" stroke-width="1.5"/><circle cx="50" cy="48" r="6" style="fill:var(--p2,#1F3A5F)"/></g></symbol>
+<symbol id="lirio" viewBox="0 0 100 100"><g filter="url(#aqs)"><g style="fill:var(--p1,#F7A1C4);stroke:var(--p3,none);stroke-width:2"><path id="lp" d="M50 50C38 34 42 12 50 3C58 12 62 34 50 50Z"/><use href="#lp" transform="rotate(60 50 50)"/><use href="#lp" transform="rotate(120 50 50)"/><use href="#lp" transform="rotate(180 50 50)"/><use href="#lp" transform="rotate(240 50 50)"/><use href="#lp" transform="rotate(300 50 50)"/></g><path d="M50 50V12M50 50L17 31M50 50L83 31M50 50L17 69M50 50L83 69M50 50V88" stroke="#fff" stroke-opacity=".55" stroke-width="2" stroke-linecap="round" fill="none"/><g style="stroke:var(--p2,#1F3A5F);fill:var(--p2,#1F3A5F)" stroke-width="2"><path d="M50 50L43 27M50 50L57 27M50 50L50 24" fill="none"/><circle cx="43" cy="26" r="3.5"/><circle cx="57" cy="26" r="3.5"/><circle cx="50" cy="23" r="3.5"/></g></g></symbol>
+<symbol id="folha" viewBox="0 0 100 100"><g filter="url(#aqs)"><path d="M50 100C50 78 48 52 50 24" fill="none" style="stroke:var(--f1,#1F3A5F)" stroke-width="3"/><g style="fill:var(--f1,#1F3A5F)"><ellipse cx="35" cy="84" rx="6" ry="14" transform="rotate(-45 35 84)"/><ellipse cx="34" cy="60" rx="6" ry="14" transform="rotate(-45 34 60)"/></g><g style="fill:var(--f2,#4F7CAC)"><ellipse cx="65" cy="72" rx="6" ry="14" transform="rotate(45 65 72)"/><ellipse cx="66" cy="48" rx="6" ry="14" transform="rotate(45 66 48)"/><ellipse cx="50" cy="30" rx="5" ry="12"/></g></g></symbol>
+<symbol id="ramoR" viewBox="0 0 100 100"><use href="#folha"/><use href="#rosa" x="29" y="2" width="42" height="42"/></symbol>
+<symbol id="ramoO" viewBox="0 0 100 100"><use href="#folha"/><use href="#orquidea" x="29" y="2" width="42" height="42"/></symbol>
+<symbol id="ramoL" viewBox="0 0 100 100"><use href="#folha"/><use href="#lirio" x="29" y="2" width="42" height="42"/></symbol></defs></svg>
+<div id="prog"></div>
+
+<header>
+  <div class="wrap">
+    <strong>Marcia &amp; Zenaide</strong>
+    <nav aria-label="Seções">
+      <a href="#dia">O grande dia</a>
+      <a href="#historia">Nossa história</a>
+      <a href="#presentes">Presentes</a>
+      <a href="#rsvp">Confirmar presença</a>
+      <a href="#recados">Recados</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="hero" id="topo">
+  <div class="in">
+    <h1><span><b>Marcia</b></span><em>&amp;</em><span><b>Zenaide</b></span></h1>
+    <p class="d">Vamos nos casar! 15 de maio de 2027 · Ibiúna, SP</p>
+    <div class="cont" id="cont" aria-label="Contagem regressiva"></div>
+    <p class="cta"><a class="btn" href="#rsvp">Confirmar presença</a><a class="btn sec" href="#dia">Ver detalhes</a></p>
+  </div>
+</div>
+
+<section id="dia" class="alt">
+  <div class="wrap">
+    <div class="dia">
+      <div class="info rv">
+        <h2>O grande dia</h2>
+        <p class="lead">Queremos você ao nosso lado neste momento tão especial. Anote na agenda!</p>
+        <dl>
+          <div><dt>Data</dt><dd>Sábado, 15 de maio de 2027</dd></div>
+          <div><dt>Horário</dt><dd>15h</dd></div>
+          <div><dt>Local</dt><dd>Ibiúna, SP</dd></div>
+        </dl>
+        <a class="btn azul" id="agenda" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Casamento+Marcia+%26+Zenaide&dates=20270515T150000/20270515T200000&ctz=America/Sao_Paulo&location=Ibi%C3%BAna%2C+SP">Salvar na agenda</a>
+      </div>
+      <div class="mapa rv">
+        <iframe title="Mapa de Ibiúna, SP" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://maps.google.com/maps?q=Ibi%C3%BAna%2C%20SP&z=13&output=embed"></iframe>
+      </div>
+    </div>
+    <div class="vest rv">
+      <h3>Dress code</h3>
+      <p>Pedimos roupas em tons claros e esporte fino confortável: elegante, mas leve, para você aproveitar a festa do início ao fim.</p>
+    </div>
+  </div>
+</section>
+
+<section id="historia">
+  <div class="wrap">
+    <div class="hist">
+      <div>
+        <h2>Nossa história</h2>
+        <p class="lead">Cada amor tem seu caminho. O nosso foi feito de encontros, conversas longas e muita cumplicidade, e agora segue para um novo capítulo.</p>
+        <p>Obrigada por fazer parte dela. Cada um de vocês, de alguma forma, ajudou a trazer a gente até aqui.</p>
+      </div>
+      <div class="linha">
+        <!-- Edite os textos abaixo com a história de vocês -->
+        <article class="rv"><h3>Quando nos conhecemos</h3><p>Um encontro simples, que só depois mostrou o tamanho que tinha.</p></article>
+        <article class="rv"><h3>Quando tudo ficou claro</h3><p>Entre risadas e planos, percebemos que o melhor lugar era um ao lado do outro.</p></article>
+        <article class="rv"><h3>O pedido</h3><p>Uma pergunta, um sim e a certeza de que era para sempre.</p></article>
+        <article class="rv"><h3>15 de maio de 2027</h3><p>O dia em que vamos celebrar com quem a gente mais ama.</p></article>
+      </div>
+    </div>
+    <!-- Coloque as fotos na pasta "fotos" com os nomes foto1.jpg ... foto6.jpg -->
+    <div class="fotos" id="fotos"></div>
+  </div>
+</section>
+
+<section id="presentes" class="alt">
+  <div class="wrap">
+    <h2>Lista de presentes</h2>
+    <p class="lead">Sua presença é o nosso maior presente. Se quiser nos presentear, escolha uma das cotas abaixo e ajude a realizar nossos sonhos.</p>
+    <div class="pres" id="pres"></div>
+  </div>
+</section>
+
+<section id="rsvp">
+  <div class="wrap">
+    <h2>Confirmação de presença</h2>
+    <p class="lead">Conte com a gente e nos conte com você! Confirme até 30 dias antes do casamento.</p>
+    <form id="form-rsvp">
+      <label>Seu nome completo<input name="nome" required autocomplete="name"></label>
+      <div>
+        <p style="font-weight:700;font-size:.95rem;margin-bottom:6px">Você vai?</p>
+        <div class="op">
+          <label><input type="radio" name="vai" value="Sim, estarei lá" checked> Sim, estarei lá</label>
+          <label><input type="radio" name="vai" value="Não poderei ir"> Não poderei ir</label>
+        </div>
+      </div>
+      <div id="acomp">
+        <p style="font-weight:700;font-size:.95rem;margin-bottom:6px">Acompanhantes</p>
+        <div id="lista-acomp"></div>
+        <button class="btn azul" type="button" id="add-acomp" style="padding:9px 20px">+ Adicionar acompanhante</button>
+        <p style="font-size:.85rem;color:#35537a;margin-top:6px">Informe o nome completo de cada pessoa que vai com você (até 5).</p>
+      </div>
+      <label>Restrição alimentar (opcional)<input name="restricao"></label>
+      <button class="btn azul" type="submit">Enviar confirmação</button>
+    </form>
+    <p class="msg" id="msg-rsvp" role="status"></p>
+  </div>
+</section>
+
+<section id="recados" class="alt">
+  <div class="wrap">
+    <h2>Mural de recados</h2>
+    <p class="lead">Deixe uma mensagem de carinho. Vamos ler cada uma com o coração cheio.</p>
+    <div id="giscus"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>Marcia &amp; Zenaide</p>
+  <p>15.05.2027 · Ibiúna, SP</p>
+</footer>
+
+<dialog id="dlg" aria-labelledby="dlg-t">
+  <h3 id="dlg-t"></h3>
+  <p id="dlg-v" style="font:600 1.8rem var(--serif);color:var(--azul)"></p>
+  <label id="dlg-outro" hidden>Valor em reais<input type="number" id="dlg-in" min="10" step="1" placeholder="Ex.: 100"></label>
+  <p style="margin-top:12px">Faça o Pix para a chave abaixo:</p>
+  <div class="pix"><code id="pix"></code><button class="btn azul" id="copiar" type="button" style="padding:10px 16px">Copiar</button></div>
+  <p style="font-size:.9rem;color:#35537a">Depois, deixe um recado no mural. Muito obrigada pelo carinho!</p>
+  <p style="margin-top:16px"><button class="btn" id="fechar" type="button">Fechar</button></p>
+</dialog>
+
+<script>
+/* ====== CONFIGURE AQUI ====== */
+const CONFIG = {
+  pix: "SUA-CHAVE-PIX-AQUI",          // CPF, e-mail, telefone ou chave aleatória
+  whatsapp: "5511999999999",          // DDI+DDD+número, só dígitos
+  formEndpoint: "",                   // opcional: endereço do Formspree (https://formspree.io/f/xxxx)
+  giscus: { repo: "", repoId: "", category: "Recados", categoryId: "" }  // veja as instruções
+};
+const PRESENTES = [
+  ["Lua de mel", 290, "Ajude a tornar nossa primeira viagem a dois inesquecível."],
+  ["Um brinde ao amor", 60, "Para brindarmos juntos a essa nova fase."],
+  ["Jantar romântico", 150, "Uma noite só nossa, com muito carinho."],
+  ["Um cantinho da casa", 200, "Para deixar o nosso lar ainda mais aconchegante."],
+  ["Passeio inesquecível", 120, "Um passeio para guardar na memória."],
+  ["Nosso grande sonho", 500, "Uma contribuição para o sonho que estamos construindo."],
+  ["Outro valor", 0, "Prefere outro valor? Contribua como o coração mandar."]
+];
+/* ============================ */
+
+const $ = s => document.querySelector(s);
+const brl = n => n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+
+// pétalas
+(function(){
+  const h = $(".hero");
+  for(let i=0;i<16;i++){
+    const p = document.createElement("i");
+    p.className = "petala";
+    p.style.cssText = `left:${Math.random()*100}%;--x:${(Math.random()*160-80)}px;animation-duration:${9+Math.random()*9}s;animation-delay:${-Math.random()*14}s;transform:scale(${.6+Math.random()*.9})`;
+    h.appendChild(p);
+  }
+})();
+
+// ===== flores em aquarela =====
+const rng=a=>()=>(a=(a*1664525+1013904223)%4294967296)/4294967296, fx=n=>n.toFixed(1);
+const VERDES=["#5d8a6b","#3f6e55","#7fa68a","#2f5a47"];
+function peonia(cx,cy,R,col,r){let s="";
+  [[9,.68,.46,.36,.55],[7,.5,.42,.36,.6],[6,.34,.34,.3,.62],[5,.19,.25,.21,.66],[4,.07,.15,.13,.72]].forEach(([n,d,a,b,o])=>{const off=r()*6.28;
+    for(let i=0;i<n;i++){const t=off+i*6.283/n+(r()-.5)*.35,px=cx+Math.cos(t)*R*d,py=cy+Math.sin(t)*R*d,A=R*a*(.9+r()*.25),B=R*b*(.9+r()*.25);
+      s+=`<g transform="rotate(${fx(t*57.3)} ${fx(px)} ${fx(py)})"><ellipse cx="${fx(px)}" cy="${fx(py)}" rx="${fx(A)}" ry="${fx(B)}" style="fill:${col}" fill-opacity="${fx(o*(.85+r()*.3))}" stroke="#1F3A5F" stroke-opacity=".3" stroke-width="${fx(R*.03)}"/><ellipse cx="${fx(px-A*.25)}" cy="${fx(py)}" rx="${fx(A*.55)}" ry="${fx(B*.55)}" fill="#fff" fill-opacity=".2"/></g>`}});
+  return s}
+const folhaAq=(x,y,L,a,c)=>{const w=L*.32,p=`M0 0C${fx(L*.25)} ${fx(-w)} ${fx(L*.75)} ${fx(-w*.9)} ${fx(L)} 0C${fx(L*.75)} ${fx(w*.7)} ${fx(L*.25)} ${fx(w)} 0 0Z`;
+  return `<g transform="translate(${fx(x)} ${fx(y)}) rotate(${fx(a*57.3)})"><path d="${p}" fill="${c}" fill-opacity=".9" stroke="#1F3A5F" stroke-opacity=".25"/><path d="M0 0C${fx(L*.25)} ${fx(-w)} ${fx(L*.75)} ${fx(-w*.9)} ${fx(L)} 0C${fx(L*.5)} ${fx(-w*.2)} ${fx(L*.2)} ${fx(-w*.1)} 0 0Z" fill="#fff" fill-opacity=".2"/><path d="M0 0Q${fx(L*.5)} ${fx(-w*.08)} ${fx(L*.92)} 0" stroke="#fff" stroke-opacity=".45" fill="none"/></g>`};
+const botao=(x,y,R,a,c)=>`<g transform="translate(${fx(x)} ${fx(y)}) rotate(${fx(a*57.3)})"><path d="M0 0C${fx(R*.3)} ${fx(-R*.9)} ${fx(R*1.5)} ${fx(-R*.9)} ${fx(R*1.7)} 0C${fx(R*1.5)} ${fx(R*.9)} ${fx(R*.3)} ${fx(R*.9)} 0 0Z" style="fill:${c}" fill-opacity=".75" stroke="#1F3A5F" stroke-opacity=".25"/><ellipse cx="${fx(R*.9)}" cy="0" rx="${fx(R*.5)}" ry="${fx(R*.35)}" fill="#fff" fill-opacity=".25"/><path d="M0 0C${fx(R*.4)} ${fx(-R*.55)} ${fx(R*.5)} ${fx(-R*.3)} ${fx(R*.7)} ${fx(-R*.1)}M0 0C${fx(R*.4)} ${fx(R*.55)} ${fx(R*.5)} ${fx(R*.3)} ${fx(R*.7)} ${fx(R*.1)}" stroke="#2f5a47" fill="none" stroke-width="${fx(R*.28)}" stroke-linecap="round"/></g>`;
+function buque(seed,pal){const r=rng(seed),gr=()=>VERDES[Math.floor(r()*4)],pc=()=>pal[Math.floor(r()*pal.length)];let st="",fo="",fl="",li="";
+  const q=(P,t)=>{const u=1-t;return[0,1].map(k=>u*u*u*P[0][k]+3*u*u*t*P[1][k]+3*u*t*t*P[2][k]+t*t*t*P[3][k])},
+    an=(P,t)=>{const a=q(P,Math.max(0,t-.01)),b=q(P,Math.min(1,t+.01));return Math.atan2(b[1]-a[1],b[0]-a[0])},
+    d=P=>`M${P[0]}C${P[1]} ${P[2]} ${P[3]}`;
+  const talo=(P,fls,bts,L0,linha)=>{
+    st+=`<path d="${d(P)}" stroke="#3f6e55" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+    let k=0;for(let t=.06;t<.95;t+=.05){const [x,y]=q(P,t),lado=k++%2?1:-1;fo+=folhaAq(x,y,L0*(1-.5*t)*(.8+r()*.4),an(P,t)+lado*(.7+r()*.6),gr())}
+    fls.forEach(([t,R,s])=>{const [x,y]=q(P,t),n=an(P,t)+s*1.57,D=R+16+r()*12,cx=x+Math.cos(n)*D,cy=y+Math.sin(n)*D;
+      st+=`<path d="M${fx(x)} ${fx(y)}Q${fx(x+Math.cos(n)*D*.3-Math.sin(n)*8)} ${fx(y+Math.sin(n)*D*.3+Math.cos(n)*8)} ${fx(cx)} ${fx(cy)}" stroke="#3f6e55" stroke-width="3" fill="none"/>`;
+      fo+=folhaAq(x,y,34,n+s*.5,gr());fl+=peonia(cx,cy,R,pc(),r)});
+    bts.forEach(([t,R,s])=>{const [x,y]=q(P,t),n=t>.94?an(P,t):an(P,t)+s*.9;fl+=botao(x,y,R,n,pc())});
+    if(linha){const Q=linha;li+=`<path d="${d(Q)}" fill="none"/>`;for(let t=.1;t<.95;t+=.07){const [x,y]=q(Q,t),a=an(Q,t);[-1,1].forEach(s=>{const A=a+s*.8,L=14+r()*8;li+=`<ellipse transform="translate(${fx(x)} ${fx(y)}) rotate(${fx(A*57.3)})" cx="${fx(L/2)}" rx="${fx(L/2)}" ry="${fx(L*.28)}" fill="none"/>`})}}};
+  talo([[40,900],[170,700],[10,420],[190,40]],[[.17,64,1],[.34,56,-1],[.52,60,1],[.7,46,-1],[.86,38,1]],[[.97,20,0],[.26,16,-1],[.6,16,1]],115,[[10,900],[-10,640],[90,380],[20,90]]);
+  talo([[110,900],[230,760],[160,560],[270,360]],[[.5,46,1],[.9,36,-1]],[[.98,16,0]],86,[[130,900],[260,700],[200,520],[290,280]]);
+  return `<svg viewBox="-50 0 400 900" aria-hidden="true"><g class="ln" stroke="var(--ln,#1F3A5F)" stroke-opacity=".6" stroke-width="1.3" fill="none">${li}</g><g filter="url(#aq)">${st}${fo}${fl}</g></svg>`}
+const AQDEFS=`<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><filter id="aq" x="-10%" y="-5%" width="120%" height="110%"><feTurbulence type="fractalNoise" baseFrequency=".03" numOctaves="3" seed="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="12" result="d"/><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="2" result="g"/><feColorMatrix in="g" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -.5 1.12" result="ga"/><feComposite in="d" in2="ga" operator="in"/></filter><filter id="aqs" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency=".05" numOctaves="2" seed="6" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="5"/></filter></defs></svg>`;
+
+document.body.insertAdjacentHTML("afterbegin",AQDEFS);
+document.querySelector("defs").insertAdjacentHTML("beforeend",`<symbol id="rosa" viewBox="0 0 100 100"><g filter="url(#aqs)">${peonia(50,50,46,"var(--p1,#F7A1C4)",rng(5))}</g></symbol>`);
+
+// flores
+const rnd=(a,b)=>a+Math.random()*(b-a);
+const VAR=[["#F7A1C4","#1F3A5F"],["#FCE7F2","#F7A1C4","#F7A1C4"],["#F7A1C4","#4F7CAC"],["#FCE7F2","#1F3A5F","#F7A1C4"]];
+const TIPOS=["rosa","orquidea","lirio"], RAMOS=["ramoR","ramoO","ramoL"];
+const pal=()=>VAR[Math.floor(Math.random()*VAR.length)];
+const sv=(c,st,id)=>{const v=pal();return `<svg class="${c}" style="--p1:${v[0]};--p2:${v[1]};--p3:${v[2]||'none'};${st||''}" aria-hidden="true"><use href="#${id}"/></svg>`};
+const flor=(c,st)=>sv("flor "+c,st,TIPOS[Math.floor(Math.random()*3)]);
+const ramo=(c,st)=>sv("fol "+c,st,RAMOS[Math.floor(Math.random()*3)]);
+(function(){
+  const h=$(".hero");
+  for(let i=0;i<9;i++){const d=document.createElement("div");d.className="hf";d.style.cssText=`left:${rnd(0,95)}%;--x:${rnd(-90,90)}px;--s:${rnd(26,54)}px;animation-duration:${rnd(14,24)}s;animation-delay:${-rnd(0,20)}s`;d.innerHTML=flor("");h.appendChild(d)}
+  document.querySelectorAll("h2").forEach(h=>{h.classList.add("rv","tit");h.insertAdjacentHTML("afterbegin",`<span class="gi">${flor("bloom")}</span>`)});
+  $("footer").insertAdjacentHTML("afterbegin",`<div class="gar">${Array.from({length:7},(_,i)=>i%3==0?ramo("",`--d:${i*.15}s`):flor("",`animation-delay:${-i*.4}s`)).join("")}</div>`);
+  $(".vest").insertAdjacentHTML("beforeend",`<div class="vf">${flor("")}${flor("")}${flor("")}</div>`);
+  addEventListener("scroll",()=>{const m=document.documentElement;$("#prog").style.width=(m.scrollTop/(m.scrollHeight-m.clientHeight)*100)+"%"},{passive:true});
+})();
+function burst(){const b=$("#form-rsvp button[type=submit]").getBoundingClientRect(),x=b.left+b.width/2,y=b.top+b.height/2;
+  for(let i=0;i<22;i++){const a=rnd(0,6.28),r=rnd(90,260),c=document.createElement("div");c.className="conf";c.style.cssText=`left:${x}px;top:${y}px;--dx:${Math.cos(a)*r}px;--dy:${Math.sin(a)*r-80}px;--r:${rnd(-360,360)}deg;--s:${rnd(20,40)}px`;c.innerHTML=flor("");document.body.appendChild(c);setTimeout(()=>c.remove(),1800)}}
+
+// guirlandas em aquarela
+(function(){
+  const g=(el,seed,pal,lado,c)=>{const w=document.createElement("div");w.className="gar2 "+lado+(c||"");w.innerHTML=buque(seed,pal);el.prepend(w)};
+  const h=$(".hero"); g(h,3,["#FCE7F2","#F7A1C4","#F4F6FA"],"e"," hero"); g(h,9,["#F4F6FA","#FCE7F2","#F7A1C4"],"d"," hero");
+  const az=["#4F7CAC","#7ea1c8","#9db9d9"], mx=["#4F7CAC","#F7A1C4","#9db9d9"];
+  const go=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.querySelectorAll(".gar2").forEach(w=>w.classList.add("on"));go.unobserve(x.target)}}),{threshold:.12});
+  go.observe(h);
+  [["#dia","d",7,az],["#historia","e",11,mx],["#presentes","d",5,az],["#rsvp","e",13,mx],["#recados","d",17,az]].forEach(([id,l,sd,pl])=>{const e=$(id);e.style.position="relative";e.style.overflow="hidden";g(e,sd,pl,l);go.observe(e)});
+})();
+
+// acompanhantes
+const lista=$("#lista-acomp"), add=$("#add-acomp");
+add.onclick=()=>{
+  const r=document.createElement("div"); r.className="ac";
+  r.innerHTML='<input name="acomp" placeholder="Nome do acompanhante" aria-label="Nome do acompanhante" required><button type="button" class="x" aria-label="Remover acompanhante">×</button>';
+  r.querySelector(".x").onclick=()=>{r.classList.add("sai");setTimeout(()=>{r.remove();add.hidden=false},250)};
+  lista.appendChild(r); r.querySelector("input").focus(); add.hidden=lista.children.length>=5;
+};
+document.querySelectorAll("input[name=vai]").forEach(r=>r.onchange=()=>{$("#acomp").hidden=$("input[name=vai]:checked").value.startsWith("Não")});
+
+// contagem regressiva
+const alvo = new Date("2027-05-15T15:00:00-03:00");
+function tick(){
+  let s = Math.max(0, Math.floor((alvo - new Date())/1000));
+  const v = [["dias",86400],["horas",3600],["min",60],["seg",1]].map(([l,d],i)=>{const n=Math.floor(s/d); s%=d; return `<div><b${i==3?' class="p"':''}>${n}</b><small>${l}</small></div>`});
+  $("#cont").innerHTML = v.join("");
+}
+tick(); setInterval(tick,1000);
+
+// fotos
+$("#fotos").innerHTML = [1,2,3,4,5,6].map(n =>
+  `<figure class="rv" style="--d:${n*.1}s">♥<img src="fotos/foto${n}.jpg" alt="Foto do casal ${n}" loading="lazy" style="position:absolute;opacity:0" onload="this.style.cssText='';this.parentNode.firstChild.textContent=''" onerror="this.remove()"></figure>`).join("");
+document.querySelectorAll(".fotos figure").forEach(f=>f.style.position="relative");
+
+// presentes
+$("#pres").innerHTML = PRESENTES.map(([t,v,d],i)=>
+  `<div class="card rv" style="--d:${i*.08}s"><h3>${t}</h3><p>${d}</p><span class="v">${v?brl(v):"Você escolhe"}</span><button class="btn azul" data-i="${i}">Presentear</button></div>`).join("");
+const dlg = $("#dlg");
+$("#pres").addEventListener("click",e=>{
+  const b = e.target.closest("button[data-i]"); if(!b) return;
+  const [t,v] = PRESENTES[b.dataset.i];
+  $("#dlg-t").textContent = t;
+  $("#dlg-v").textContent = v ? brl(v) : "";
+  $("#dlg-outro").hidden = !!v;
+  $("#pix").textContent = CONFIG.pix;
+  dlg.showModal();
+});
+$("#fechar").onclick = () => dlg.close();
+dlg.addEventListener("click",e=>{ if(e.target===dlg) dlg.close(); });
+$("#copiar").onclick = async () => {
+  try{ await navigator.clipboard.writeText(CONFIG.pix); }
+  catch{ const r=document.createRange(); r.selectNodeContents($("#pix")); getSelection().removeAllRanges(); getSelection().addRange(r); document.execCommand("copy"); }
+  $("#copiar").textContent = "Copiado!"; setTimeout(()=>$("#copiar").textContent="Copiar",2000);
+};
+
+// RSVP
+$("#form-rsvp").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const fd = new FormData(e.target), d = Object.fromEntries(fd), nao = d.vai.startsWith("Não");
+  const ac = nao ? [] : fd.getAll("acomp").map(x=>x.trim()).filter(Boolean);
+  d.acompanhantes = ac.join(", "); d.total = nao ? 0 : 1 + ac.length; delete d.acomp;
+  const msg = $("#msg-rsvp"); msg.className = "msg on";
+  const texto = `Olá! Aqui é ${d.nome}. ${d.vai}.` + (ac.length ? ` Acompanhantes (${ac.length}): ${d.acompanhantes}.` : "") + (d.restricao ? ` Restrição alimentar: ${d.restricao}.` : "");
+  if(CONFIG.formEndpoint){
+    try{
+      const r = await fetch(CONFIG.formEndpoint,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify(d)});
+      if(!r.ok) throw 0;
+      msg.textContent = "Confirmação enviada! Obrigada por responder. 💙"; e.target.reset(); lista.innerHTML=""; add.hidden=false; burst(); return;
+    }catch{ msg.textContent = "Não foi possível enviar agora. Tente novamente em instantes."; return; }
+  }
+  window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(texto)}`,"_blank");
+  msg.textContent = "Abrimos o WhatsApp com a sua confirmação. É só enviar a mensagem!"; burst();
+});
+
+// mural de recados (Giscus, usa as Discussions do GitHub)
+(function(){
+  const g = CONFIG.giscus, el = $("#giscus");
+  if(!g.repo){ el.innerHTML = "<p class='msg on'>O mural estará disponível em breve.</p>"; return; }
+  const s = document.createElement("script");
+  s.src = "https://giscus.app/client.js"; s.async = true; s.crossOrigin = "anonymous";
+  Object.entries({repo:g.repo,"repo-id":g.repoId,category:g.category,"category-id":g.categoryId,mapping:"specific",term:"Mural de recados","reactions-enabled":"1","input-position":"top",theme:"light",lang:"pt"}).forEach(([k,v])=>s.setAttribute("data-"+k,v));
+  el.appendChild(s);
+})();
+
+// entrada suave de fotos e linha do tempo
+const io = new IntersectionObserver(es=>es.forEach(x=>{ if(x.isIntersecting){ x.target.classList.add("in"); io.unobserve(x.target);} }),{threshold:.15});
+document.querySelectorAll(".rv").forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
